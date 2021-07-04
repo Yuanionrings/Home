@@ -1,15 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router'
-import './App.css';
+
+import Home from './components/Home';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit
-        </p>
-      </header>
+      <Home />
     </div>
   );
 }
