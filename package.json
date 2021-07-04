@@ -1,7 +1,14 @@
 {
-  "name": "yuan",
-  "version": "0.1.0",
+  "name": "yuan-portfolio",
+  "description": "A personal static website/portfolio hosted with GitHub Pages, built to showcase my recent projects.",
+  "homepage": "http://yuangao.com",
+  "version": "0.2.0",
   "private": true,
+  "author": {
+    "name": "Yuan Gao",
+    "email": "yuanionrings@gmail.com",
+    "url": "https://github.com/Yuanionrings"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

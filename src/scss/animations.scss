@@ -1,0 +1,51 @@
+// Background Animations
+@keyframes BackgroundAnimation {
+    0% {
+      background-position: 0% 7%;
+    }
+    50% {
+      background-position: 100% 94%;
+    }
+    100% {
+      background-position: 0% 7%;
+    }
+  }
+
+// For Chrome(blink, webkit), Safari(webkit) and Opera(blink)
+@-webkit-keyframes BackgroundAnimation {
+    0% {
+      background-position: 0% 7%;
+    }
+    50% {
+      background-position: 100% 94%;
+    }
+    100% {
+      background-position: 0% 7%;
+    }
+}
+
+// For Firefox(gecko)
+@-moz-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+
+// For Opera(presto)
+@-o-keyframes BackgroundAnimation {
+    0% {
+      background-position: 0% 7%;
+    }
+    50% {
+      background-position: 100% 94%;
+    }
+    100% {
+      background-position: 0% 7%;
+    }
+}

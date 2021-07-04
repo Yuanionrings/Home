@@ -12,7 +12,11 @@ const mainBody = {
       },
       {
         image: "fa-instagram",
-        url: "https://github.com/Yuanionrings",
+        url: "https://www.instagram.com/yuannnnnnnnnnnnnnnnn/",
+      },
+      {
+        image: "fa-linkedin",
+        url: "https://www.linkedin.com/in/yuan-gao-0505/",
       },
     ],
   };
