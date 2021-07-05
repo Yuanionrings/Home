@@ -3,7 +3,7 @@ import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
-const MainBody = ({ gradient, title, message, icons }) => {
+const MainBody = React.forwardRef(({ gradient, title, message, icons }, ref) => {
     return (
         <Jumbotron
             fluid
@@ -14,11 +14,11 @@ const MainBody = ({ gradient, title, message, icons }) => {
             }}
             className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0">
 
-                <div id="stars"></div>
+                <div id="bubbles"></div>
                 <Container className="text-center">
-                    <h1 className="display-1"> {title} </h1>
+                    <h1 ref={ref} className="display-1"> {title} </h1>
                     <Typist className="lead typist" cursor={{ show: false }}> {message} </Typist>
-                    <div className="p-1">
+                    <div className="p-5">
                         {icons.map((icon, index) => (
                             <a
                                 key={`social-icon-${index}`}
@@ -41,6 +41,6 @@ const MainBody = ({ gradient, title, message, icons }) => {
                 </Container>
         </Jumbotron>
     );
-}
+});
   
-  export default MainBody;
+export default MainBody;

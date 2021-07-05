@@ -1,14 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router'
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 
 const App = () => {
+  const titleRef = React.useRef();
+
   return (
-    <div className='App'>
-      <Home />
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+      <Route path="/" exact component={() => <Home ref={titleRef} />} />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
