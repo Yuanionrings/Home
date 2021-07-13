@@ -20,6 +20,21 @@ code {
     monospace;
 }
 
+.navbar-white {
+  background-color: rgba(234, 236, 239, 0.81);
+  transition: background-color 0.2s;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.nav-link {
+  transition: color, 0.2s;
+}
+
+.brand {
+  color: #363636 !important;
+}
+
 .bgstyle {
   background-size: 1200% 1200%;
   -webkit-animation: BackgroundAnimation 70s ease infinite;
@@ -67,11 +82,26 @@ code {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
   background-color: #e9ecef;
+  position: relative;
+  z-index: 1;
 }
 
-.filler {
+#projects {
   padding-top: 500px;
   padding-bottom: 500px;
-  background-color: #67b2fd;
+  background-color: #F8F9FA;
   text-align: center !important;
+  position: relative;
+  z-index: 1;
 }
+
+#skills {
+  padding-top: 500px;
+  padding-bottom: 500px;
+  background-color: #FFFFFF;
+  text-align: center !important;
+  position: relative;
+  z-index: 1;
+}
+
+//#67b2fd

@@ -25,8 +25,8 @@ const mainBody = {
 const aboutMe = {
   heading: "About Me",
   description:
-    "My name is Yuan Gao. I’m a rising senior of 2022 from Wentworth Institute of Technology at Boston, MA, with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Yuan Gao. I'm an upcoming senior majoring in Computer Science with a minor concentration in Mathematics and Data Science at Wentworth Institute of Technology in Boston, Massachusetts. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Computer Science. In my free time I like working on open source projects.",
+  resume: "https://docs.google.com/document/d/1ANuXw1JjoUg9_1YT4uwFDBSvyG8DqVIzhuteo9M383o/edit?usp=sharing",
 };
 
 export {mainBody, aboutMe};

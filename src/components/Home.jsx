@@ -5,13 +5,16 @@ import {
   aboutMe
 } from './config'
 
+import Navbar from './Navbar';
 import MainBody from './home/MainBody';
 import AboutMe from "./home/AboutMe";
 import Projects from "./home/Projects";
+import Skills from './home/Skills';
 
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
+      <Navbar/>
       <MainBody
         gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
@@ -25,6 +28,8 @@ const Home = React.forwardRef((props, ref) => {
         resume={aboutMe.resume}
       />
       <Projects
+      />
+      <Skills
       />
     </>
   );

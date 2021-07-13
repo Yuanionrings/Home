@@ -1,6 +1,5 @@
 import React from "react";
-import profilePicture from "../resources/yuangao.png";
-
+import profilePicture from "../resources/yuangao_light.jpg";
 
 const AboutMe = ({ heading, description, resume }) => {
 
