@@ -29,4 +29,13 @@ const aboutMe = {
   resume: "https://docs.google.com/document/d/1ANuXw1JjoUg9_1YT4uwFDBSvyG8DqVIzhuteo9M383o/edit?usp=sharing",
 };
 
-export {mainBody, aboutMe};
+// Experiences Section
+
+// Footer Section
+const footer ={
+  heading: "Get In Touch",
+  message: "I'm currently looking for full-stack Software Engineering or Machine Learning opportunities! If you have any questions or if you just want to say hi, please feel free to reach out to me at, ",
+  email: "yuanionrings@gmail.com"
+}
+
+export {mainBody, aboutMe, footer};
