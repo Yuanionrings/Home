@@ -1,12 +1,12 @@
 #bubbles {
-width: 1px;
-height: 1px;
+width: 2px;
+height: 2px;
 background: transparent;
 animation: animBubble 50s linear infinite;
 box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
     1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
     36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
-    1448px 1157px #fff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
+    1448px 1157px #ffffff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
     1629px 835px #fff, 479px 969px #fff, 1231px 960px #fff, 586px 384px #fff,
     164px 527px #fff, 8px 646px #fff, 1150px 1126px #fff, 665px 1357px #fff,
     1556px 1982px #fff, 1260px 1961px #fff, 1675px 1741px #fff,
@@ -187,8 +187,8 @@ box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
 content: "";
 position: absolute;
 top: 2000px;
-width: 1px;
-height: 1px;
+width: 2px;
+height: 2px;
 background: transparent;
 box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
     1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
