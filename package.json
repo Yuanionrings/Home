@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
     "bootstrap": "^5.0.2",
     "hooks": "^0.3.2",
     "jumbotron": "^0.2.9",
@@ -25,8 +25,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-typist": "^2.0.5",
-    "sass": "^1.35.1",
-    "web-vitals": "^1.1.2"
+    "sass": "^1.37.0",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
